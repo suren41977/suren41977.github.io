@@ -8,22 +8,16 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
-  <body class="template"> 
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>scaling</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">scaling</div>
     </div>
-             
-            <B>A(or)Mouse Scroll Wheel:-</B>Increase model scale</br>
-            <B>S(or)Mouse Scroll Wheel:-</B>Decrease model scale</br>
-            <B>Z:-</B>Zoom In camera</br>
-            <B>X:-</B>&nbsp;Zoom Out Camera</br>
-            <B>O:-</B>Toggle models outline</br>
-            <B>Left Arrow:-</B>Move the model in negative X direction</br>
-            <B>Right Arrow:-</B>Move the model in positive X direction</br>
-            <B>Up Arrow:-</B>Move the model in positive Y direction</br>
-            <B>Down Arrow:-</B>Move the model in negative Y direction</br>
-    
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
     <script type='text/javascript'>
   var Module = {
     TOTAL_MEMORY: 268435456,
